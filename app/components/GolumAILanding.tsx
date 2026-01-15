@@ -795,4 +795,3 @@ export default function GolumAILanding() {
     </div>
   );
 }
-
