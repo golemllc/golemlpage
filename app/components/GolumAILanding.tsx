@@ -17,8 +17,6 @@ import {
   Workflow,
 } from "lucide-react";
 
-// Golum AI — Futuristic / Quantum-era landing page
-// Single-file React component (Tailwind + Framer Motion). No external assets required.
 
 const cx = (...c: Array<string | false | null | undefined>) => c.filter(Boolean).join(" ");
 
@@ -168,7 +166,7 @@ function HowItWorksTimeline({ reducedMotion }: { reducedMotion: boolean }) {
       {
         title: "Connect",
         icon: Blocks,
-        desc: "Plug into POS, inventory, e-commerce, and compliance systems. Golum maps your data into a live operational graph.",
+        desc: "Plug into POS, inventory, e-commerce, and compliance systems. Golem maps your data into a live operational graph.",
         tag: "APIs + Connectors",
       },
       {
@@ -186,7 +184,7 @@ function HowItWorksTimeline({ reducedMotion }: { reducedMotion: boolean }) {
       {
         title: "Execute",
         icon: Workflow,
-        desc: "Approve actions and let Golum automate safe, reversible moves with audit logs, confidence thresholds, and rollback.",
+        desc: "Approve actions and let Golem automate safe, reversible moves with audit logs, confidence thresholds, and rollback.",
         tag: "Closed-Loop Ops",
       },
       {
@@ -345,18 +343,18 @@ function AnimatedTerminal({ reducedMotion }: { reducedMotion: boolean }) {
     () => [
       { k: "query", v: "How are we trending vs forecast today?" },
       {
-        k: "golum",
+        k: "Golem",
         v: "Sales are +7% vs forecast. Basket size is down $3. VIPs are shifting to edibles (+12% WoW).",
       },
       {
-        k: "golum",
+        k: "Golem",
         v: "Top threats: (1) Pre-rolls stockout in 9 hours. (2) Low conversion at checkout. (3) High churn risk: Loyalty Tier B.",
       },
       {
-        k: "golum",
+        k: "Golem",
         v: "Actions: (A) Restock pre-rolls 50 units. (B) Auto-send VIP edible promo. (C) Enable 10% basket upsell at checkout.",
       },
-      { k: "golum", v: "Confidence: 0.86 · Rollback window: 15 min · Audit log: enabled" },
+      { k: "Golem", v: "Confidence: 0.86 · Rollback window: 15 min · Audit log: enabled" },
     ],
     []
   );
@@ -374,7 +372,7 @@ function AnimatedTerminal({ reducedMotion }: { reducedMotion: boolean }) {
       <div className="flex items-center justify-between border-b border-white/10 px-5 py-3">
         <div className="flex items-center gap-2 text-xs font-semibold text-white/70">
           <div className="h-2 w-2 rounded-full bg-emerald-300" />
-          Golum Terminal
+          Golem Terminal
         </div>
         <div className="flex items-center gap-2 text-[11px] text-white/50">
           <Lock className="h-4 w-4" />
@@ -401,7 +399,7 @@ function AnimatedTerminal({ reducedMotion }: { reducedMotion: boolean }) {
                     : "bg-emerald-400/15 text-emerald-200 ring-emerald-300/20"
                 )}
               >
-                {lines[index].k === "query" ? "Manager" : "Golum"}
+                {lines[index].k === "query" ? "Store Manager" : "Golem"}
               </span>
               <span className="text-white/80">{lines[index].v}</span>
             </motion.div>
@@ -442,8 +440,8 @@ function AnimatedTerminal({ reducedMotion }: { reducedMotion: boolean }) {
 function FAQ() {
   const faqs = [
     {
-      q: "Is Golum AI a chatbot or an operations system?",
-      a: "Both. Golum is Dispensary-GPT for instant answers, plus a closed-loop ops layer that can recommend and execute approved actions with audit logs.",
+      q: "Is Golem AI a chatbot or an operations system?",
+      a: "Both. Golem is Dispensary-GPT for instant answers, plus a closed-loop ops layer that can recommend and execute approved actions with audit logs.",
     },
     {
       q: "How do integrations work?",
@@ -482,17 +480,17 @@ function Footer() {
             <Database className="h-5 w-5 text-emerald-300" />
           </div>
           <div>
-            <div className="text-sm font-semibold text-white">Golum AI</div>
+            <div className="text-sm font-semibold text-white">Golem AI</div>
             <div className="text-xs text-white/55">Tech Solutions & Blockchain</div>
           </div>
         </div>
-        <div className="text-xs text-white/55">© {new Date().getFullYear()} Golum AI. All rights reserved.</div>
+        <div className="text-xs text-white/55">© {new Date().getFullYear()} Golem AI. All rights reserved.</div>
       </div>
     </footer>
   );
 }
 
-export default function GolumAILanding() {
+export default function GolemAILanding() {
   const reducedMotion = usePrefersReducedMotion();
 
   const scrollTo = (id: string) => {
@@ -519,7 +517,7 @@ export default function GolumAILanding() {
               <Cpu className="h-5 w-5 text-emerald-300" />
             </div>
             <div className="leading-tight">
-              <div className="text-sm font-semibold">Golum AI</div>
+              <div className="text-sm font-semibold">Golem AI</div>
               <div className="text-xs text-white/55">Tech Solutions & Blockchain</div>
             </div>
           </div>
@@ -532,7 +530,7 @@ export default function GolumAILanding() {
               How it works
             </button>
             <button onClick={() => scrollTo("why")} className="hover:text-white transition">
-              Why Golum
+              Why Golem
             </button>
             <button onClick={() => scrollTo("faq")} className="hover:text-white transition">
               FAQ
@@ -572,7 +570,7 @@ export default function GolumAILanding() {
               >
                 Next-Gen operations for dispensaries powered by{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-sky-200 to-amber-200">
-                  Golum AI
+                  Golem AI
                 </span>
               </motion.h1>
 
@@ -582,7 +580,7 @@ export default function GolumAILanding() {
                 transition={{ duration: 0.7, delay: 0.08 }}
                 className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-white/70 sm:text-lg"
               >
-                Golum is a Dispensary-GPT that understands your inventory, sales, customers, and wholesale flows,
+                Golem is a Dispensary-GPT that understands your inventory, sales, customers, and wholesale flows,
                 then recommends and executes safe, evidence-grounded actions.
               </motion.p>
 
@@ -656,15 +654,15 @@ export default function GolumAILanding() {
           <SectionTitle
             kicker="How it works"
             title="A closed-loop intelligence system which is grounded, safe and auditable"
-            subtitle="Golum turns raw data into actions using simulation, probabilistic forecasting, and confidence gating. Everything can be approved, audited, and rolled back."
+            subtitle="Golem turns raw data into actions using simulation, probabilistic forecasting, and confidence gating. Everything can be approved, audited, and rolled back."
           />
           <HowItWorksTimeline reducedMotion={reducedMotion} />
         </section>
 
-        {/* Why Golum */}
+        {/* Why Golem */}
         <section id="why" className="relative mx-auto max-w-6xl px-6 py-16">
           <SectionTitle
-            kicker="Why Golum"
+            kicker="Why Golem"
             title="From dashboards to survivability - your operations become a living organism"
             subtitle="We combine AI, simulation, and blockchain-ready auditability to reduce stockouts, protect margins, and compress operational risk."
           />
@@ -716,7 +714,7 @@ export default function GolumAILanding() {
                 </div>
                 <h3 className="mt-3 text-2xl font-semibold text-white">Designed for trust, compliance, and speed</h3>
                 <p className="mt-2 max-w-2xl text-sm text-white/70">
-                  Whether you need an immutable audit trail or simply enterprise-grade tracking, Golum’s action layer is built
+                  Whether you need an immutable audit trail or simply enterprise-grade tracking, Golem’s action layer is built
                   for secure execution in regulated industries.
                 </p>
               </div>
@@ -783,7 +781,7 @@ export default function GolumAILanding() {
                   </button>
                 </form>
                 <div className="mt-4 text-[11px] text-white/50">
-                  By submitting, you agree to be contacted by Golum AI.
+                  By submitting, you agree to be contacted by Golem AI.
                 </div>
               </div>
             </div>

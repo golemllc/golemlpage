@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Golum AI — Tech Solutions & Blockchain",
-  description: "Dispensary-GPT + Digital Twin for dispensary operations across the USA.",
+  title: "Golem AI — Intelligence is Artificial",
+  description: "Digital Worker GPT + Simulation Twin to reason supply chain and optimize ops across dispensaries in the USA & CA.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
