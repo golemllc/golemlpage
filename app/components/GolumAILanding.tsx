@@ -1,4 +1,5 @@
-"use client";
+worker
+  "use client";
 
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { useSearchParams } from 'next/navigation';
@@ -580,7 +581,7 @@ export default function GolemAILanding() {
                 transition={{ duration: 0.7, delay: 0.08 }}
                 className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-white/70 sm:text-lg"
               >
-                Golem is a Digital Worker GPT that understands your inventory, sales, customers, and wholesale flows,
+                Golem is a Digital-Worker-GPT / Simulation-Sandbox that understands your inventory, sales, customers, and wholesale flows,
                 then recommends and executes safe, evidence-grounded actions.
               </motion.p>
 
