@@ -580,7 +580,7 @@ export default function GolemAILanding() {
                 transition={{ duration: 0.7, delay: 0.08 }}
                 className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-white/70 sm:text-lg"
               >
-                Golem is a Dispensary-GPT that understands your inventory, sales, customers, and wholesale flows,
+                Golem is a Digital Worker GPT that understands your inventory, sales, customers, and wholesale flows,
                 then recommends and executes safe, evidence-grounded actions.
               </motion.p>
 
