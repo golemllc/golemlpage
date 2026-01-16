@@ -1,1 +1,1 @@
-Golum AI Landing Page
+Golem.io: https://golemllc.github.io/golemlpage/
