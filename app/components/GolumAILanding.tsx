@@ -569,7 +569,7 @@ export default function GolemAILanding() {
                 transition={{ duration: 0.7 }}
                 className="mt-6 text-balance text-4xl font-semibold tracking-tight sm:text-6xl"
               >
-                Next-Gen operations for dispensaries powered by{" "}
+                Next-Gen ops for dispensaries across the US/CA powered by{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-300 via-sky-200 to-amber-200">
                   Golem AI
                 </span>
@@ -581,7 +581,7 @@ export default function GolemAILanding() {
                 transition={{ duration: 0.7, delay: 0.08 }}
                 className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-white/70 sm:text-lg"
               >
-                Golem is a Digital-Worker-GPT / Simulation-Sandbox that understands your inventory, sales, customers, and wholesale flows,
+                Golem is a Digital-Worker-GPT — a Simulation Sandbox that understands your inventory, sales, customers, and wholesale flows,
                 then recommends and executes safe, evidence-grounded actions.
               </motion.p>
 
